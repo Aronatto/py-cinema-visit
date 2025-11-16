@@ -4,7 +4,7 @@ from app.people.customer import Customer
 from app.people.cinema_staff import Cleaner
 
 
-def cinema_visit(customers, hall_number, cleaner, movie):
+def cinema_visit(customers, hall_number, cleaner,  movie):
     customer_objects = []
 
     for data in customers:
